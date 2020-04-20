@@ -1,0 +1,1020 @@
+/*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+/* Sections
+     ========================================================================== */
+/**
+   * Remove the margin in all browsers.
+   */
+body {
+  margin: 0; }
+
+/**
+   * Correct the font size and margin on `h1` elements within `section` and
+   * `article` contexts in Chrome, Firefox, and Safari.
+   */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/* Grouping content
+     ========================================================================== */
+/**
+   * 1. Add the correct box sizing in Firefox.
+   * 2. Show the overflow in Edge and IE.
+   */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */ }
+
+/**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/* Text-level semantics
+     ========================================================================== */
+/**
+   * Remove the gray background on active links in IE 10.
+   */
+a {
+  background-color: transparent; }
+
+/**
+   * 1. Remove the bottom border in Chrome 57-
+   * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+   */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+  /* 2 */ }
+
+/**
+   * Add the correct font weight in Chrome, Edge, and Safari.
+   */
+b,
+strong {
+  font-weight: bolder; }
+
+/**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/**
+   * Add the correct font size in all browsers.
+   */
+small {
+  font-size: 80%; }
+
+/**
+   * Prevent `sub` and `sup` elements from affecting the line height in
+   * all browsers.
+   */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sub {
+  bottom: -0.25em; }
+
+sup {
+  top: -0.5em; }
+
+/* Embedded content
+     ========================================================================== */
+/**
+   * Remove the border on images inside links in IE 10.
+   */
+img {
+  border-style: none; }
+
+/* Forms
+     ========================================================================== */
+/**
+   * 1. Change the font styles in all browsers.
+   * 2. Remove the margin in Firefox and Safari.
+   */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */ }
+
+/**
+   * Show the overflow in IE.
+   * 1. Show the overflow in Edge.
+   */
+button,
+input {
+  /* 1 */
+  overflow: visible; }
+
+/**
+   * Remove the inheritance of text transform in Edge, Firefox, and IE.
+   * 1. Remove the inheritance of text transform in Firefox.
+   */
+button,
+select {
+  /* 1 */
+  text-transform: none; }
+
+/**
+   * Correct the inability to style clickable types in iOS and Safari.
+   */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button; }
+
+/**
+   * Remove the inner border and padding in Firefox.
+   */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0; }
+
+/**
+   * Restore the focus styles unset by the previous rule.
+   */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText; }
+
+/**
+   * Correct the padding in Firefox.
+   */
+fieldset {
+  padding: 0.35em 0.75em 0.625em; }
+
+/**
+   * 1. Correct the text wrapping in Edge and IE.
+   * 2. Correct the color inheritance from `fieldset` elements in IE.
+   * 3. Remove the padding so developers are not caught out when they zero out
+   *    `fieldset` elements in all browsers.
+   */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */ }
+
+/**
+   * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+   */
+progress {
+  vertical-align: baseline; }
+
+/**
+   * Remove the default vertical scrollbar in IE 10+.
+   */
+textarea {
+  overflow: auto; }
+
+/**
+   * 1. Add the correct box sizing in IE 10.
+   * 2. Remove the padding in IE 10.
+   */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+   * Correct the cursor style of increment and decrement buttons in Chrome.
+   */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+   * 1. Correct the odd appearance in Chrome and Safari.
+   * 2. Correct the outline style in Safari.
+   */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */ }
+
+/**
+   * Remove the inner padding in Chrome and Safari on macOS.
+   */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+   * 1. Correct the inability to style clickable types in iOS and Safari.
+   * 2. Change font properties to `inherit` in Safari.
+   */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */ }
+
+/* Interactive
+     ========================================================================== */
+/*
+   * Add the correct display in Edge, IE 10+, and Firefox.
+   */
+details {
+  display: block; }
+
+/*
+   * Add the correct display in all browsers.
+   */
+summary {
+  display: list-item; }
+
+/* Misc
+     ========================================================================== */
+/**
+   * Add the correct display in IE 10+.
+   */
+template {
+  display: none; }
+
+/**
+   * Add the correct display in IE 10.
+   */
+[hidden] {
+  display: none; }
+
+@-webkit-keyframes fade {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7); }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1); } }
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7); }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1); } }
+
+body {
+  position: relative;
+  background: center center no-repeat;
+  background-size: cover;
+  background-image: url("/svg/decor/decor.svg");
+  position: relative;
+  display: flex;
+  height: 100vh;
+  flex-flow: column nowrap;
+  justify-content: center;
+  overflow: hidden;
+  font-family: "Quicksand";
+  font-size: 1.4em; }
+  body::before {
+    content: "";
+    position: absolute;
+    left: -2rem;
+    right: -2rem;
+    top: 0;
+    background: url("/svg/menu/menutop.svg") center center no-repeat;
+    background-size: cover;
+    height: 55rem;
+    z-index: -1; }
+  body::after {
+    content: "";
+    position: absolute;
+    left: -2rem;
+    right: -2rem;
+    bottom: 0;
+    background: url("/svg/menu/menubottom.svg") center center no-repeat;
+    background-size: cover;
+    height: 55rem;
+    z-index: -1; }
+  body main {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 auto;
+    margin-bottom: 10rem; }
+
+.video {
+  display: none;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0; }
+  .video video {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover; }
+
+#trash-recycle {
+  display: none;
+  position: absolute;
+  left: 0rem;
+  bottom: 10rem;
+  -webkit-animation: fade 0.3s ease;
+          animation: fade 0.3s ease; }
+  #trash-recycle.triggered {
+    display: block; }
+  #trash-recycle svg {
+    width: 12rem; }
+
+#trash-not-recycle {
+  display: none;
+  position: absolute;
+  right: 0rem;
+  bottom: 13rem;
+  -webkit-animation: fade 0.3s ease;
+          animation: fade 0.3s ease; }
+  #trash-not-recycle.triggered {
+    display: initial; }
+  #trash-not-recycle svg {
+    height: 12rem; }
+
+.pop-up {
+  display: none;
+  position: absolute;
+  left: 3rem;
+  right: 3rem;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  padding: 3rem;
+  background: center center no-repeat;
+  background-size: cover;
+  background-image: url("/svg/container_pop-up.svg");
+  text-align: center; }
+  .pop-up .close-popup {
+    position: absolute;
+    right: 3rem;
+    top: 1.5rem; }
+  .pop-up.triggered {
+    display: block; }
+
+.btn-balle {
+  display: none;
+  position: absolute;
+  left: 50%;
+  bottom: 10rem;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%); }
+  .btn-balle.triggered {
+    display: block; }
+  .btn-balle svg {
+    height: 20rem;
+    width: 10rem; }
+
+.flower {
+  display: none;
+  opacity: 0;
+  position: absolute;
+  left: 2rem;
+  bottom: 15rem; }
+  .flower svg {
+    height: 10rem; }
+  .flower.triggered {
+    display: block;
+    -webkit-animation: fade 0.4s ease forwards;
+            animation: fade 0.4s ease forwards;
+    -webkit-animation-delay: 0.2s;
+            animation-delay: 0.2s; }
+
+html {
+  font-size: .625em;
+  font-size: calc(1em * .625); }
+
+body {
+  font-size: 1.6em;
+  font-family: "Quicksand"; }
+  @media only screen and (min-width: 50em) {
+    body {
+      font-size: 2em; } }
+
+.wrapper-sm {
+  max-width: 50rem;
+  margin-left: 2rem;
+  margin-right: 2rem; }
+  @media only screen and (min-width: 33.75em) {
+    .wrapper-sm {
+      margin-left: auto;
+      margin-right: auto; } }
+
+[class*='grid'] {
+  display: flex;
+  margin: 0;
+  flex-flow: row wrap; }
+  @media only screen and (min-width: 37.5em) {
+    [class*='grid'] {
+      margin-left: -1rem;
+      margin-right: -1rem; } }
+  [class*='grid'] > * {
+    margin: 1rem 0;
+    flex: 1 1 100%; }
+    @media only screen and (min-width: 37.5em) {
+      [class*='grid'] > * {
+        margin: 1rem;
+        flex-grow: 0;
+        flex-basis: calc(50% - 2rem); } }
+    @media only screen and (min-width: 75em) {
+      [class*='grid'] > * {
+        flex-grow: 1;
+        flex-basis: auto; } }
+    [class*='grid'] > *.push-right {
+      margin-left: auto; }
+    [class*='grid'] > *.enlarge {
+      flex-grow: 3; }
+  [class*='grid'].no-marge {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-top: 0; }
+    [class*='grid'].no-marge > * {
+      margin: 0; }
+      @media only screen and (min-width: 37.5em) {
+        [class*='grid'].no-marge > * {
+          flex-grow: 0;
+          flex-basis: calc(50%); } }
+
+.grid-1-2 > * {
+  flex-grow: 0; }
+  @media only screen and (min-width: 50em) {
+    .grid-1-2 > *:nth-child(odd) {
+      flex-basis: 30.33333%; }
+      @supports (flex-basis: calc( 100%)) {
+        .grid-1-2 > *:nth-child(odd) {
+          flex-basis: calc( ( ( ( 100% / 3 ) - 2rem) * 1 ) + (2rem * 0)); } } }
+  @media only screen and (min-width: 50em) {
+    .grid-1-2 > *:nth-child(even) {
+      flex-basis: 63.66667%; }
+      @supports (flex-basis: calc( 100%)) {
+        .grid-1-2 > *:nth-child(even) {
+          flex-basis: calc( ( ( ( 100% / 3 ) - 2rem) * 2 ) + (2rem * 1)); } } }
+
+@media only screen and (min-width: 50em) {
+  .grid-1-2.no-marge > *:nth-child(odd) {
+    flex-basis: 30.33333%; }
+    @supports (flex-basis: calc( 100%)) {
+      .grid-1-2.no-marge > *:nth-child(odd) {
+        flex-basis: calc( ( ( ( 100% / 3 ) - 0rem) * 1 ) + (0rem * 0)); } } }
+
+@media only screen and (min-width: 50em) {
+  .grid-1-2.no-marge > *:nth-child(even) {
+    flex-basis: 63.66667%; }
+    @supports (flex-basis: calc( 100%)) {
+      .grid-1-2.no-marge > *:nth-child(even) {
+        flex-basis: calc( ( ( ( 100% / 3 ) - 0rem) * 2 ) + (0rem * 1)); } } }
+
+.grid-1-3 > * {
+  flex-grow: 0; }
+  @media only screen and (min-width: 50em) {
+    .grid-1-3 > *:nth-child(odd) {
+      flex-basis: 22%; }
+      @supports (flex-basis: calc( 100%)) {
+        .grid-1-3 > *:nth-child(odd) {
+          flex-basis: calc( ( ( ( 100% / 4 ) - 2rem) * 1 ) + (2rem * 0)); } } }
+  @media only screen and (min-width: 50em) {
+    .grid-1-3 > *:nth-child(even) {
+      flex-basis: 72%; }
+      @supports (flex-basis: calc( 100%)) {
+        .grid-1-3 > *:nth-child(even) {
+          flex-basis: calc( ( ( ( 100% / 4 ) - 2rem) * 3 ) + (2rem * 2)); } } }
+
+@media only screen and (min-width: 50em) {
+  .grid-1-3.no-marge > *:nth-child(odd) {
+    flex-basis: 22%; }
+    @supports (flex-basis: calc( 100%)) {
+      .grid-1-3.no-marge > *:nth-child(odd) {
+        flex-basis: calc( ( ( ( 100% / 4 ) - 0rem) * 1 ) + (0rem * 0)); } } }
+
+@media only screen and (min-width: 50em) {
+  .grid-1-3.no-marge > *:nth-child(even) {
+    flex-basis: 72%; }
+    @supports (flex-basis: calc( 100%)) {
+      .grid-1-3.no-marge > *:nth-child(even) {
+        flex-basis: calc( ( ( ( 100% / 4 ) - 0rem) * 3 ) + (0rem * 2)); } } }
+
+.grid-1-4 > * {
+  flex-grow: 0; }
+  @media only screen and (min-width: 50em) {
+    .grid-1-4 > *:nth-child(odd) {
+      flex-basis: 17%; }
+      @supports (flex-basis: calc( 100%)) {
+        .grid-1-4 > *:nth-child(odd) {
+          flex-basis: calc( ( ( ( 100% / 5 ) - 2rem) * 1 ) + (2rem * 0)); } } }
+  @media only screen and (min-width: 50em) {
+    .grid-1-4 > *:nth-child(even) {
+      flex-basis: 77%; }
+      @supports (flex-basis: calc( 100%)) {
+        .grid-1-4 > *:nth-child(even) {
+          flex-basis: calc( ( ( ( 100% / 5 ) - 2rem) * 4 ) + (2rem * 3)); } } }
+
+@media only screen and (min-width: 50em) {
+  .grid-1-4.no-marge > *:nth-child(odd) {
+    flex-basis: 17%; }
+    @supports (flex-basis: calc( 100%)) {
+      .grid-1-4.no-marge > *:nth-child(odd) {
+        flex-basis: calc( ( ( ( 100% / 5 ) - 0rem) * 1 ) + (0rem * 0)); } } }
+
+@media only screen and (min-width: 50em) {
+  .grid-1-4.no-marge > *:nth-child(even) {
+    flex-basis: 77%; }
+    @supports (flex-basis: calc( 100%)) {
+      .grid-1-4.no-marge > *:nth-child(even) {
+        flex-basis: calc( ( ( ( 100% / 5 ) - 0rem) * 4 ) + (0rem * 3)); } } }
+
+@media only screen and (min-width: 37.5em) {
+  .grid-2 > * {
+    flex-grow: 0; } }
+
+@media only screen and (min-width: 75em) {
+  .grid-2 > * {
+    flex-basis: 47%; }
+    @supports (flex-basis: calc( 100%)) {
+      .grid-2 > * {
+        flex-basis: calc( ( 100% / 2 ) - 2rem); } } }
+
+.grid-2 > *.enlarge {
+  flex-grow: 0;
+  flex-basis: 100%; }
+
+@media only screen and (min-width: 75em) {
+  .grid-2.no-marge > * {
+    flex-basis: 47%; }
+    @supports (flex-basis: calc( 100%)) {
+      .grid-2.no-marge > * {
+        flex-basis: calc( ( 100% / 2 ) - 0rem); } } }
+
+.grid-2-1 > * {
+  flex-grow: 0; }
+  @media only screen and (min-width: 50em) {
+    .grid-2-1 > *:nth-child(odd) {
+      flex-basis: 63.66667%; }
+      @supports (flex-basis: calc( 100%)) {
+        .grid-2-1 > *:nth-child(odd) {
+          flex-basis: calc( ( ( ( 100% / 3 ) - 2rem) * 2 ) + (2rem * 1)); } } }
+  @media only screen and (min-width: 50em) {
+    .grid-2-1 > *:nth-child(even) {
+      flex-basis: 30.33333%; }
+      @supports (flex-basis: calc( 100%)) {
+        .grid-2-1 > *:nth-child(even) {
+          flex-basis: calc( ( ( ( 100% / 3 ) - 2rem) * 1 ) + (2rem * 0)); } } }
+
+@media only screen and (min-width: 50em) {
+  .grid-2-1.no-marge > *:nth-child(odd) {
+    flex-basis: 63.66667%; }
+    @supports (flex-basis: calc( 100%)) {
+      .grid-2-1.no-marge > *:nth-child(odd) {
+        flex-basis: calc( ( ( ( 100% / 3 ) - 0rem) * 2 ) + (0rem * 1)); } } }
+
+@media only screen and (min-width: 50em) {
+  .grid-2-1.no-marge > *:nth-child(even) {
+    flex-basis: 30.33333%; }
+    @supports (flex-basis: calc( 100%)) {
+      .grid-2-1.no-marge > *:nth-child(even) {
+        flex-basis: calc( ( ( ( 100% / 3 ) - 0rem) * 1 ) + (0rem * 0)); } } }
+
+.grid-2-3 > * {
+  flex-grow: 0; }
+  @media only screen and (min-width: 50em) {
+    .grid-2-3 > *:nth-child(odd) {
+      flex-basis: 37%; }
+      @supports (flex-basis: calc( 100%)) {
+        .grid-2-3 > *:nth-child(odd) {
+          flex-basis: calc( ( ( ( 100% / 5 ) - 2rem) * 2 ) + (2rem * 1)); } } }
+  @media only screen and (min-width: 50em) {
+    .grid-2-3 > *:nth-child(even) {
+      flex-basis: 57%; }
+      @supports (flex-basis: calc( 100%)) {
+        .grid-2-3 > *:nth-child(even) {
+          flex-basis: calc( ( ( ( 100% / 5 ) - 2rem) * 3 ) + (2rem * 2)); } } }
+
+@media only screen and (min-width: 50em) {
+  .grid-2-3.no-marge > *:nth-child(odd) {
+    flex-basis: 37%; }
+    @supports (flex-basis: calc( 100%)) {
+      .grid-2-3.no-marge > *:nth-child(odd) {
+        flex-basis: calc( ( ( ( 100% / 5 ) - 0rem) * 2 ) + (0rem * 1)); } } }
+
+@media only screen and (min-width: 50em) {
+  .grid-2-3.no-marge > *:nth-child(even) {
+    flex-basis: 57%; }
+    @supports (flex-basis: calc( 100%)) {
+      .grid-2-3.no-marge > *:nth-child(even) {
+        flex-basis: calc( ( ( ( 100% / 5 ) - 0rem) * 3 ) + (0rem * 2)); } } }
+
+@media only screen and (min-width: 37.5em) {
+  .grid-3 > * {
+    flex-grow: 0; } }
+
+@media only screen and (min-width: 75em) {
+  .grid-3 > * {
+    flex-basis: 30.33333%; }
+    @supports (flex-basis: calc( 100%)) {
+      .grid-3 > * {
+        flex-basis: calc( ( 100% / 3 ) - 2rem); } } }
+
+.grid-3 > *.enlarge {
+  flex-grow: 0;
+  flex-basis: 100%; }
+
+@media only screen and (min-width: 75em) {
+  .grid-3.no-marge > * {
+    flex-basis: 30.33333%; }
+    @supports (flex-basis: calc( 100%)) {
+      .grid-3.no-marge > * {
+        flex-basis: calc( ( 100% / 3 ) - 0rem); } } }
+
+.grid-3-1 > * {
+  flex-grow: 0; }
+  @media only screen and (min-width: 50em) {
+    .grid-3-1 > *:nth-child(odd) {
+      flex-basis: 72%; }
+      @supports (flex-basis: calc( 100%)) {
+        .grid-3-1 > *:nth-child(odd) {
+          flex-basis: calc( ( ( ( 100% / 4 ) - 2rem) * 3 ) + (2rem * 2)); } } }
+  @media only screen and (min-width: 50em) {
+    .grid-3-1 > *:nth-child(even) {
+      flex-basis: 22%; }
+      @supports (flex-basis: calc( 100%)) {
+        .grid-3-1 > *:nth-child(even) {
+          flex-basis: calc( ( ( ( 100% / 4 ) - 2rem) * 1 ) + (2rem * 0)); } } }
+
+@media only screen and (min-width: 50em) {
+  .grid-3-1.no-marge > *:nth-child(odd) {
+    flex-basis: 72%; }
+    @supports (flex-basis: calc( 100%)) {
+      .grid-3-1.no-marge > *:nth-child(odd) {
+        flex-basis: calc( ( ( ( 100% / 4 ) - 0rem) * 3 ) + (0rem * 2)); } } }
+
+@media only screen and (min-width: 50em) {
+  .grid-3-1.no-marge > *:nth-child(even) {
+    flex-basis: 22%; }
+    @supports (flex-basis: calc( 100%)) {
+      .grid-3-1.no-marge > *:nth-child(even) {
+        flex-basis: calc( ( ( ( 100% / 4 ) - 0rem) * 1 ) + (0rem * 0)); } } }
+
+.grid-3-2 > * {
+  flex-grow: 0; }
+  @media only screen and (min-width: 50em) {
+    .grid-3-2 > *:nth-child(odd) {
+      flex-basis: 57%; }
+      @supports (flex-basis: calc( 100%)) {
+        .grid-3-2 > *:nth-child(odd) {
+          flex-basis: calc( ( ( ( 100% / 5 ) - 2rem) * 3 ) + (2rem * 2)); } } }
+  @media only screen and (min-width: 50em) {
+    .grid-3-2 > *:nth-child(even) {
+      flex-basis: 37%; }
+      @supports (flex-basis: calc( 100%)) {
+        .grid-3-2 > *:nth-child(even) {
+          flex-basis: calc( ( ( ( 100% / 5 ) - 2rem) * 2 ) + (2rem * 1)); } } }
+
+@media only screen and (min-width: 50em) {
+  .grid-3-2.no-marge > *:nth-child(odd) {
+    flex-basis: 57%; }
+    @supports (flex-basis: calc( 100%)) {
+      .grid-3-2.no-marge > *:nth-child(odd) {
+        flex-basis: calc( ( ( ( 100% / 5 ) - 0rem) * 3 ) + (0rem * 2)); } } }
+
+@media only screen and (min-width: 50em) {
+  .grid-3-2.no-marge > *:nth-child(even) {
+    flex-basis: 37%; }
+    @supports (flex-basis: calc( 100%)) {
+      .grid-3-2.no-marge > *:nth-child(even) {
+        flex-basis: calc( ( ( ( 100% / 5 ) - 0rem) * 2 ) + (0rem * 1)); } } }
+
+@media only screen and (min-width: 37.5em) {
+  .grid-4 > * {
+    flex-grow: 0; } }
+
+@media only screen and (min-width: 75em) {
+  .grid-4 > * {
+    flex-basis: 22%; }
+    @supports (flex-basis: calc( 100%)) {
+      .grid-4 > * {
+        flex-basis: calc( ( 100% / 4 ) - 2rem); } } }
+
+.grid-4 > *.enlarge {
+  flex-grow: 0;
+  flex-basis: 100%; }
+
+@media only screen and (min-width: 75em) {
+  .grid-4.no-marge > * {
+    flex-basis: 22%; }
+    @supports (flex-basis: calc( 100%)) {
+      .grid-4.no-marge > * {
+        flex-basis: calc( ( 100% / 4 ) - 0rem); } } }
+
+.grid-4-1 > * {
+  flex-grow: 0; }
+  @media only screen and (min-width: 50em) {
+    .grid-4-1 > *:nth-child(odd) {
+      flex-basis: 77%; }
+      @supports (flex-basis: calc( 100%)) {
+        .grid-4-1 > *:nth-child(odd) {
+          flex-basis: calc( ( ( ( 100% / 5 ) - 2rem) * 4 ) + (2rem * 3)); } } }
+  @media only screen and (min-width: 50em) {
+    .grid-4-1 > *:nth-child(even) {
+      flex-basis: 17%; }
+      @supports (flex-basis: calc( 100%)) {
+        .grid-4-1 > *:nth-child(even) {
+          flex-basis: calc( ( ( ( 100% / 5 ) - 2rem) * 1 ) + (2rem * 0)); } } }
+
+@media only screen and (min-width: 50em) {
+  .grid-4-1.no-marge > *:nth-child(odd) {
+    flex-basis: 77%; }
+    @supports (flex-basis: calc( 100%)) {
+      .grid-4-1.no-marge > *:nth-child(odd) {
+        flex-basis: calc( ( ( ( 100% / 5 ) - 0rem) * 4 ) + (0rem * 3)); } } }
+
+@media only screen and (min-width: 50em) {
+  .grid-4-1.no-marge > *:nth-child(even) {
+    flex-basis: 17%; }
+    @supports (flex-basis: calc( 100%)) {
+      .grid-4-1.no-marge > *:nth-child(even) {
+        flex-basis: calc( ( ( ( 100% / 5 ) - 0rem) * 1 ) + (0rem * 0)); } } }
+
+@media only screen and (min-width: 37.5em) {
+  .grid-5 > * {
+    flex-grow: 0; } }
+
+@media only screen and (min-width: 75em) {
+  .grid-5 > * {
+    flex-basis: 17%; }
+    @supports (flex-basis: calc( 100%)) {
+      .grid-5 > * {
+        flex-basis: calc( ( 100% / 5 ) - 2rem); } } }
+
+.grid-5 > *.enlarge {
+  flex-grow: 0;
+  flex-basis: 100%; }
+
+@media only screen and (min-width: 75em) {
+  .grid-5.no-marge > * {
+    flex-basis: 17%; }
+    @supports (flex-basis: calc( 100%)) {
+      .grid-5.no-marge > * {
+        flex-basis: calc( ( 100% / 5 ) - 0rem); } } }
+
+.grid-5-0 > * {
+  flex-grow: 0; }
+  @media only screen and (min-width: 75em) {
+    .grid-5-0 > * {
+      flex-basis: 17%; }
+      @supports (flex-basis: calc( 100%)) {
+        .grid-5-0 > * {
+          flex-basis: calc( ( 100% / 5 ) - 2rem); } } }
+
+@media only screen and (min-width: 75em) {
+  .grid-5-0.no-marge > * {
+    flex-basis: 17%; }
+    @supports (flex-basis: calc( 100%)) {
+      .grid-5-0.no-marge > * {
+        flex-basis: calc( ( 100% / 5 ) - 0rem); } } }
+
+.header {
+  padding: 1rem 0; }
+  .header .container {
+    display: flex;
+    margin: 0 3rem;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center; }
+    .header .container button {
+      display: flex;
+      height: 6rem;
+      width: 6rem;
+      box-shadow: 0rem 0rem 2rem rgba(0, 0, 0, 0.5);
+      flex-flow: row nowrap;
+      justify-content: center;
+      align-items: center;
+      margin: 0 1rem;
+      border-radius: 100%;
+      background-color: #fff; }
+      .header .container button span {
+        display: block; }
+      .header .container button svg {
+        pointer-events: none;
+        height: 100%;
+        width: 100%; }
+      .header .container button.setting {
+        position: absolute;
+        top: 1rem;
+        right: -2rem;
+        width: 2.5rem;
+        height: 2.5rem; }
+
+.usine {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0; }
+  .usine img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover; }
+
+.menu {
+  display: none;
+  padding: 0 0 2rem 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 7rem; }
+  .menu::-webkit-scrollbar {
+    display: none; }
+  .menu.triggered {
+    display: block; }
+  .menu:not(.menu-food) {
+    height: 6rem; }
+    .menu:not(.menu-food) button {
+      position: relative; }
+      .menu:not(.menu-food) button:not(.btn-item)::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        background: #fff;
+        border-radius: 100%;
+        width: 6rem;
+        height: 6rem;
+        -webkit-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+        z-index: 0; }
+      .menu:not(.menu-food) button svg {
+        display: block;
+        position: relative;
+        height: 5rem;
+        width: 5rem;
+        z-index: 1; }
+    .menu:not(.menu-food) .submenu {
+      height: 6rem; }
+      .menu:not(.menu-food) .submenu button {
+        border-radius: 0;
+        background-color: transparent; }
+        .menu:not(.menu-food) .submenu button::before {
+          display: none; }
+  .menu.menu-food .window .list {
+    overflow: visible; }
+  .menu .window {
+    position: relative;
+    width: 100%;
+    height: 100%; }
+    .menu .window .list {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      top: 0;
+      right: 0;
+      display: flex;
+      flex-flow: row nowrap;
+      overflow-x: scroll;
+      overflow-y: hidden; }
+      .menu .window .list button, .menu .window .list div {
+        flex: 1 0 33%;
+        height: 100%; }
+        .menu .window .list button svg, .menu .window .list div svg {
+          display: block;
+          margin: auto;
+          height: 100%;
+          width: 100%;
+          pointer-events: none; }
+  .menu .submenu {
+    display: none;
+    position: absolute;
+    bottom: 8rem;
+    left: 0;
+    right: 0;
+    height: 7rem; }
+    .menu .submenu.triggered {
+      display: block; }
+
+.menu:not(.menu-food) .window .list button svg, .menu:not(.menu-food) .window .list div svg {
+  height: 6rem;
+  width: 6rem; }
+
+button {
+  background-color: transparent;
+  border: none;
+  padding: 0; }
+  button:focus {
+    outline: none; }
+
+body .row-category {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around; }
+  body .row-category .btn-category {
+    height: 15rem;
+    width: 15rem;
+    margin: 2rem;
+    position: relative; }
+    body .row-category .btn-category img {
+      width: 5rem;
+      height: 5rem; }
+    body .row-category .btn-category span {
+      position: absolute;
+      bottom: 1rem;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+              transform: translateX(-50%); }
+
+.monster {
+  max-width: 100%; }
+  .monster .img-monster {
+    display: flex;
+    height: 60vh;
+    flex-flow: row nowrap;
+    justify-content: center; }
+    .monster .img-monster.zoom svg {
+      -webkit-transform: scale(8) translateY(-5rem);
+              transform: scale(8) translateY(-5rem);
+      transition: all 0.5s ease; }
+    .monster .img-monster.happyMonstre svg #bouche_normale, .monster .img-monster.happyMonstre svg #yeux_normaux {
+      display: none; }
+    .monster .img-monster.happyMonstre svg #bouche_ouverte, .monster .img-monster.happyMonstre svg #yeux_content {
+      display: block; }
+    .monster .img-monster.sadMonstre svg #bouche_normale, .monster .img-monster.sadMonstre svg #yeux_normaux {
+      display: none; }
+    .monster .img-monster.sadMonstre svg #bouche_mefiant, .monster .img-monster.sadMonstre svg #yeux_dodo {
+      display: block; }
+    .monster .img-monster.lunette svg #lunette {
+      display: block; }
+    .monster .img-monster.pull svg #pull {
+      display: block; }
+    .monster .img-monster svg {
+      height: 100%;
+      transition: all 0.5s ease; }
+      .monster .img-monster svg #bouche_ouverte, .monster .img-monster svg #bouche_dodo, .monster .img-monster svg #bouche_colere, .monster .img-monster svg #bouche_mefiant, .monster .img-monster svg #yeux_dodo, .monster .img-monster svg #yeux_content, .monster .img-monster svg #yeux_colere, .monster .img-monster svg #lunette, .monster .img-monster svg #pull, .monster .img-monster svg #Z_01, .monster .img-monster svg #Z_02, .monster .img-monster svg #Z_03 {
+        display: none; }
+
+
+/*# sourceMappingURL=main.css.map*/

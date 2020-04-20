@@ -1,0 +1,11 @@
+html {
+    font-size: .625em; font-size: calc(1em * .625);
+}
+
+body{
+    font-size: 1.6em; font-family: $font-content;
+
+    @include media($breakpoint-md){
+        font-size: 2em;
+    }
+}

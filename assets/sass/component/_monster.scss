@@ -1,0 +1,52 @@
+.monster{
+    max-width: 100%;
+    .img-monster{
+        display: flex; height: 60vh;
+        flex-flow: row nowrap; justify-content: center;
+        
+        &.zoom svg{
+            transform: scale(8) translateY(-5rem);
+            transition: all 0.5s ease;
+        }
+
+        &.happyMonstre svg{
+            #bouche_normale, #yeux_normaux{
+                display: none;
+            }
+            #bouche_ouverte, #yeux_content{
+                display: block;
+            }
+        }
+
+        &.sadMonstre svg{
+            #bouche_normale, #yeux_normaux{
+                display: none;
+            }
+            #bouche_mefiant, #yeux_dodo{
+                display: block;
+            }
+        }
+
+        &.lunette svg{
+            #lunette{
+                display: block;
+            }  
+        }
+
+        &.pull svg{
+            #pull{
+                display: block;
+            }  
+        }
+
+        svg{
+            height: 100%;
+            transition: all 0.5s ease;
+
+            #bouche_ouverte, #bouche_dodo, #bouche_colere, #bouche_mefiant, #yeux_dodo, #yeux_content, #yeux_colere, #lunette, #pull, #Z_01, #Z_02, #Z_03{
+                display: none;
+            }
+            
+        }
+    }
+}

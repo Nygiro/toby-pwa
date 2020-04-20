@@ -1,0 +1,23 @@
+body {
+    .row-category {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        .btn-category {
+            height: 15rem;
+            width: 15rem;
+            margin: 2rem;
+            position: relative;
+            img {
+                width: 5rem;
+                height: 5rem;
+            }
+            span {
+                position: absolute;
+                bottom: 1rem;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+        }
+    }
+}

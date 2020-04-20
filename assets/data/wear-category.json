@@ -1,0 +1,77 @@
+{
+    "chapeau": {
+        "name": "Chapeaux",
+        "icon": "./svg/game-category/icon_hat.svg",
+        "items": {
+            "items1": {
+                "name": "Chapeau2",
+                "img": "./svg/chapeaux/Chapeau-02.svg"
+            },
+            "items2": {
+                "name": "Chapeau3",
+                "img": "./svg/chapeaux/Chapeau-03.svg"
+            },
+            "items3": {
+                "name": "Chapeau1",
+                "img": "./svg/chapeaux/Chapeau-01.svg"
+            }
+        }
+    },
+    "lunette": {
+        "name": "Lunettes",
+        "img": "https://picsum.photos/200/300",
+        "icon": "./svg/game-category/icon_glasses.svg",
+        "items": {
+            "items1": {
+                "name": "Lunette1",
+                "img": "./svg/lunettes/lunette_custom.svg"
+            },
+            "items2": {
+                "name": "Lunette2",
+                "img": "./svg/lunettes/lunette_soleil.svg"
+            },
+            "items3": {
+                "name": "Lunette3",
+                "img": "./svg/lunettes/lunette_vue.svg"
+            }
+        }
+    },
+    "pull": {
+        "name": "Pull",
+        "img": "https://picsum.photos/200/300",
+        "icon": "./svg/game-category/icon_tee.svg",
+        "items": {
+            "items1": {
+                "name": "Pull1",
+                "img": "./svg/pull/marcel.svg"
+            },
+            "items2": {
+                "name": "Pull2",
+                "img": "./svg/pull/pull.svg"
+            },
+            "items3": {
+                "name": "Pull3",
+                "img": "./svg/pull/mariniere.svg"
+            }
+        }
+    },
+    "botte": {
+        "name": "Botte",
+        "img": "https://picsum.photos/200/300",
+        "icon": "./svg/game-category/icon_botte.svg",
+        "items": {
+            "items1": {
+                "name": "Lunette1",
+                "img": "./svg/lunettes/lunette_custom.svg"
+            },
+            "items2": {
+                "name": "Lunette2",
+                "img": "./svg/lunettes/lunette_soleil.svg"
+            },
+            "items3": {
+                "name": "Lunette3",
+                "img": "./svg/lunettes/lunette_vue.svg"
+            }
+        }
+    }
+}
